@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-
+import Divider from '@mui/material/Divider';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 
@@ -62,7 +62,7 @@ export default function OrderItem({order}) {
 
   
   return (
-    <Card sx={{ display: 'flex',flexDirection:"column",flexShrink: 0 }}>
+    <Card sx={{ display: 'flex',flexDirection:"column",flexShrink: 0,boxShadow:"none",backgroundColor:"" }}>
 
       {/* Order Item */}
       <Box sx={{ display: 'flex', justifyContent:"space-between"}}>
@@ -131,7 +131,7 @@ export default function OrderItem({order}) {
         {/* === Count Order  ===*/}
 
 
-
+<Divider/>
     </Card>
   );
 }

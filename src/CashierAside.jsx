@@ -8,6 +8,7 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
+import EmptyCart from "./EmptyCart";
 
 import { OrderContext } from './Context/OrderContext';
 import { useContext, useEffect, useState } from 'react';
@@ -93,6 +94,8 @@ const orderList = orders.map((order) => {
   )
 })
 
+
+
 const product = orders.reduce((acc, order) =>{ 
   return acc + (order.price * order.count)
 },0)
@@ -163,8 +166,23 @@ const discount = (product*activeCoupon).toFixed(2)
       <Typography variant="h3">Products</Typography>
 
     {/* Order Item List */}
-    <Stack direction={"column"} spacing={2} sx={{ overflowY:"auto", maxHeight:"600px", paddingRight:2} }>
-    {orderList}
+    <Stack direction={"column"} spacing={2} sx={{ overflowY:"auto", maxHeight:"600px", paddingRight:2,
+      "&::-webkit-scrollbar": {
+      width: "6px",
+    },
+    "&::-webkit-scrollbar-track": {
+      backgroundColor: "#f1f1f1",
+      borderRadius: "4px",
+    },
+    "&::-webkit-scrollbar-thumb": {
+      backgroundColor: "primary.main", 
+      borderRadius: "4px",
+      "&:hover": {
+        backgroundColor: "primary.dark", 
+      },
+    },
+    } }>
+    {orderList.length == 0?<EmptyCart/>:orderList}
 
     </Stack>
 
