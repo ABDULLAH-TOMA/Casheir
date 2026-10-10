@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Cheeseburger",
+    "category": "Burgers",
+    "price": 8.5,
+    "image": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 2,
+    "name": "Double Bacon Burger",
+    "category": "Burgers",
+    "price": 10.5,
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 3,
+    "name": "Pepperoni Pizza",
+    "category": "Pizza",
+    "price": 12.0,
+    "image": "https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 4,
+    "name": "Margherita Pizza",
+    "category": "Pizza",
+    "price": 9.5,
+    "image": "https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 5,
+    "name": "Grilled Salmon",
+    "category": "Fish",
+    "price": 16.5,
+    "image": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 6,
+    "name": "Crispy Fish & Chips",
+    "category": "Fish",
+    "price": 11.0,
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 7,
+    "name": "Crispy French Fries",
+    "category": "Appetizers",
+    "price": 4.0,
+    "image": "https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 8,
+    "name": "Mozzarella Sticks",
+    "category": "Appetizers",
+    "price": 5.5,
+    "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 9,
+    "name": "Club Sandwich",
+    "category": "Sandwiches",
+    "price": 7.25,
+    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 10,
+    "name": "Crispy Chicken Sandwich",
+    "category": "Sandwiches",
+    "price": 8.0,
+    "image": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 11,
+    "name": "Chocolate Cheesecake",
+    "category": "Desserts",
+    "price": 5.5,
+    "image": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  },
+  {
+    "id": 12,
+    "name": "Warm Chocolate Brownie",
+    "category": "Desserts",
+    "price": 4.75,
+    "image": "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=500",
+    "count":1
+  }
+]
