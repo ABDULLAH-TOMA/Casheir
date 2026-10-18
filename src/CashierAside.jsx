@@ -151,8 +151,8 @@ const discount = (product*activeCoupon).toFixed(2)
       </Dialog>
     {/* === Dialog === */}
 
-    <Stack direction={"column"} spacing={2}>
-      <Typography variant="h3">Order Derails</Typography>
+     <Typography variant="h3" sx={{bgcolor:"#f2f1fb",p:"10px",borderTopRightRadius:"10px",borderTopLeftRadius:"10px"}}>Order Derails</Typography>
+    <Stack direction={"column"} sx={{border:"1px solid #f2f1fb",borderTop:"none",borderRadius:"10px",p:"20px",borderTopRightRadius:"0px",borderTopLeftRadius:"0px"}} spacing={2}>
 
       {/* Service Method Button */}
       <ToggleButtonGroup color="primary" exclusive value={serviceMethod} onChange={handleChangeServiceMethod}  sx={{justifyContent:"center"}}>
@@ -195,15 +195,15 @@ const discount = (product*activeCoupon).toFixed(2)
       Discount
       </Typography>
       <Box sx={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
-        <TextField  size="medium" label="Discount" variant="outlined" value={couponInput} onChange={handleChangeCouponInput}  />
-        <Button onClick={handleApplyCoupon} variant="contained" size="large">Apply</Button>
+        <TextField sx={{bgcolor:"#f2f1fb"}}  size="medium" label="Discount" variant="outlined" value={couponInput} onChange={handleChangeCouponInput}  />
+        <Button sx={{color:"white"}} onClick={handleApplyCoupon} variant="contained" size="large">Apply</Button>
       </Box>
     </Stack>
     {/*=== Discount === */}
       
-      <Card sx={{ minWidth: 275 }}>
+      <Card sx={{ minWidth: 275, boxShadow:"none"}}>
         <CardContent sx={{display:"flex", flexDirection:"column",gap:1.5}}>
-          <Typography variant="h3" sx={{ fontSize: 25 }}>
+          <Typography variant="h3">
             Payment Summary
           </Typography>
 

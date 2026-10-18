@@ -25,6 +25,10 @@ function App() {
   const theme = createTheme({
     typography: {
       fontFamily: ["Poppins"],
+      h3: {
+        fontSize:"25px",
+        fontWeight:"600"
+      }
     },
     palette: {
       primary: {

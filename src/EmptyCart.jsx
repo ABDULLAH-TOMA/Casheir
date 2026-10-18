@@ -1,6 +1,7 @@
 import Box from "@mui/material/Box"
 import RemoveShoppingCartOutlinedIcon from '@mui/icons-material/RemoveShoppingCartOutlined';
 import Typography from "@mui/material/Typography";
+
 export default function EmptyCart() {
   return(
     <Box      sx={{

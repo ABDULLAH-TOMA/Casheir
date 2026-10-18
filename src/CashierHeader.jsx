@@ -7,6 +7,7 @@ import {  useContext} from 'react';
 import { SearchItemsContext } from "./Context/SearchItemsContext";
 import { CategoryContext } from "./Context/CategoryContext";
 
+import 
 
 export default function CashierHeader() {
   const {searchField,setSearchField} = useContext(SearchItemsContext);
