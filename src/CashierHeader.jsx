@@ -8,6 +8,7 @@ import { SearchItemsContext } from "./Context/SearchItemsContext";
 import { CategoryContext } from "./Context/CategoryContext";
 
 
+
 export default function CashierHeader() {
   const {searchField,setSearchField} = useContext(SearchItemsContext);
   const {category, setCategory} = useContext(CategoryContext);

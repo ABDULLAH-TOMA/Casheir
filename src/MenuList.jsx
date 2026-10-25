@@ -2,12 +2,14 @@ import { useContext } from 'react';
 import MenuItem from './MenuItem';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
-import { DataFoodsContext } from './Context/DataFoodsContext';
 import { SearchItemsContext } from "./Context/SearchItemsContext";
 import { CategoryContext } from "./Context/CategoryContext";
+import { useCasheirStore } from "./useCasheirStore";
+
 
 export default function MenuList() {
-  const {dataFoods} = useContext(DataFoodsContext)
+    const dataFoods = useCasheirStore((state) => state.dataFoods)
+
   const {searchField} = useContext(SearchItemsContext);
   const {category} = useContext(CategoryContext);
 
